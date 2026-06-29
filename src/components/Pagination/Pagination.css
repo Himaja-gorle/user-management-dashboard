@@ -1,0 +1,43 @@
+.pagination{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:15px;
+
+margin:25px;
+
+flex-wrap:wrap;
+
+}
+
+.pagination button{
+
+padding:10px 15px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+}
+
+.pagination button:disabled{
+
+opacity:.5;
+
+cursor:not-allowed;
+
+}
+
+.pagination select{
+
+padding:8px;
+
+}
