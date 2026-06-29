@@ -68,7 +68,7 @@ src/
 └── reportWebVitals.js
 ⚙️ Installation & Setup
 1. Clone repository
-git clone https://github.com/your-username/user-management-dashboard.git
+git clone https://github.com/Himaja-gorle/user-management-dashboard.git
 2. Navigate to project
 cd user-management-dashboard
 3. Install dependencies
