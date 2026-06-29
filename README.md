@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+📌 User Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive User Management Dashboard built with React.js that performs full CRUD operations with search, sorting, pagination, and modal-based form handling. This project demonstrates real-world frontend development practices using reusable components and clean architecture.
 
-## Available Scripts
+📸 Preview
 
-In the project directory, you can run:
+Add screenshots here after deployment
 
-### `npm start`
+Home Page → User List
+Add/Edit Modal → Form UI
+Pagination → Page Navigation
+✨ Features
+👤 User Management (CRUD)
+View users from API
+Add new user
+Edit existing user
+Delete user with confirmation
+🔍 Search & Sorting
+Global search across:
+Name
+Email
+Company
+City
+Sort users by:
+ID (default)
+Name
+Email
+📄 Pagination System
+Page size options:
+10 / 25 / 50 / 100
+Next / Previous navigation
+Dynamic page updates based on filters
+🎨 UI & UX
+Fully responsive design (mobile + desktop)
+Card-based layout using Flexbox
+Clean modal-based form (react-modal)
+Loading spinner UI
+Error handling UI
+Toast notifications (react-toastify)
+🛠️ Tech Stack
+⚛️ React.js (Functional Components)
+🎣 React Hooks (useState, useEffect, useMemo)
+🎨 HTML5 + CSS3
+🌐 Fetch API
+🔔 React Toastify
+🪟 React Modal
+📁 Project Structure
+src/
+│
+├── components/
+│   ├── Header/
+│   ├── Toolbar/
+│   ├── UserTable/
+│   ├── UserForm/
+│   └── Pagination/
+│
+├── services/
+│   └── api.js
+│
+├── utils/
+│   └── helpers.js
+│
+├── styles/
+│   └── global.css
+│
+├── App.js
+├── index.js
+└── reportWebVitals.js
+⚙️ Installation & Setup
+1. Clone repository
+git clone https://github.com/your-username/user-management-dashboard.git
+2. Navigate to project
+cd user-management-dashboard
+3. Install dependencies
+npm install
+4. Start development server
+npm start
+5. Build for production
+npm run build
+🌐 API Reference
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project uses the public API:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 https://jsonplaceholder.typicode.com/users
+📦 Key Dependencies
+react
+react-dom
+react-modal
+react-toastify
+🧠 Key Learnings
+React functional component architecture
+State management using hooks
+API integration using Fetch
+Reusable component design
+Pagination & filtering logic
+Modal form handling
+Responsive UI design
+📱 Responsive Design
 
-### `npm test`
+✔ Desktop
+✔ Tablet
+✔ Mobile
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built using Flexbox-based layout system.
 
-### `npm run build`
+🚀 Deployment
+Hosted on Vercel
+CI/CD via GitHub integration
+👨‍💻 Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Himaja Gorle
+Frontend Developer (React.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📄 License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for educational and portfolio purposes.
